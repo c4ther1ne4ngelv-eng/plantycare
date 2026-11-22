@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PlantyCare</string>
+    <string name="splash_bounjor">bounjor</string>
+    <string name="splash_halo">halo</string>
+    <string name="splash_selamat_datang">selamat datang</string>
+    <string name="badge_hours_suffix">h</string>
+    <string name="badge_days_suffix">j</string>
+</resources>

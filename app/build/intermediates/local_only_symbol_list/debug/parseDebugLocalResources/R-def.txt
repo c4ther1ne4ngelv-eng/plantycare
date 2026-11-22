@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable logo_plantycare
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string badge_days_suffix
+string badge_hours_suffix
+string splash_bounjor
+string splash_halo
+string splash_selamat_datang
+style Theme.PlantyCare
+xml backup_rules
+xml data_extraction_rules
+xml file_paths

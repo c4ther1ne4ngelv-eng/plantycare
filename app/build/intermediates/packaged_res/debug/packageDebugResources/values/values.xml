@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlantyCare</string>
+    <string name="badge_days_suffix">j</string>
+    <string name="badge_hours_suffix">h</string>
+    <string name="splash_bounjor">bounjor</string>
+    <string name="splash_halo">halo</string>
+    <string name="splash_selamat_datang">selamat datang</string>
+    <style name="Theme.PlantyCare" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>
