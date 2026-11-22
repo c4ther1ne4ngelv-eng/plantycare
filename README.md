@@ -1,10 +1,10 @@
-# 🌿 PlantyCare - Smart Indoor Plant & Environment Monitor
+#  PlantyCare - Smart Indoor Plant & Environment Monitor
 
 > **Aplikasi Android Modern berbasis Kotlin Jetpack Compose, MVVM Architecture, SQLite (Room Database), dan Sensor Pintar (Ambient Light & Motion/Vibration Alerts).**
 
 ---
 
-## 📖 1. Nama & Deskripsi Aplikasi
+## 1. Nama & Deskripsi Aplikasi
 
 **PlantyCare** adalah aplikasi pendamping perawatan tanaman hias *indoor* profesional yang dirancang untuk membantu pemilik tanaman memantau kesehatan tanaman kesayangannya. Aplikasi ini mengintegrasikan **sensor perangkat keras (*hardware sensors*)** smartphone untuk:
 1. Mengukur intensitas cahaya ruangan (*Lux*) secara *live* (**Environment Sensor**).
@@ -15,9 +15,9 @@ Seluruh data profil dan tanaman tersimpan aman di database lokal SQLite (Room).
 
 ---
 
-## ✨ 2. Fitur-Fitur Aplikasi
+## 2. Fitur-Fitur Aplikasi
 
-1. **Apple-style Animated Handwriting Splash Screen 🍎:**
+1. **Apple-style Animated Handwriting Splash Screen :**
    * Animasi menulis indah huruf demi huruf (*letter-by-letter handwriting*) dengan tipografi kaligrafi (*"hello", "halo", "bonjour", "selamat datang"*).
    * Transisi memudar (*smooth fade*) yang anggun menuju logo resmi **PlantyCare**.
    * Pengecekan otomatis sesi login pengguna.
@@ -27,11 +27,11 @@ Seluruh data profil dan tanaman tersimpan aman di database lokal SQLite (Room).
    * *Header* atas memuat **koleksi foto tanaman asli yang bergeser otomatis (*auto-sliding carousel*)** setiap 3,5 detik.
    * *Tab switcher* Masuk (Login) dan Daftar (Sign Up), serta akses cepat *Tamu (Guest Mode)*.
 
-3. **Smart Vibration Alert (Getar Pengingat Siram Otomatis) 📳:**
+3. **Smart Vibration Alert (Getar Pengingat Siram Otomatis) :**
    * Begitu aplikasi dibuka dan mendeteksi ada tanaman yang sudah jatuh tempo siram, smartphone akan **bergetar dengan ritme khusus (pulsa ganda)** untuk memperingatkan pengguna secara fisik.
    * Terdapat kartu peringatan *"Tanaman Butuh Air!"* di Home Dashboard dan tombol *"Uji Getar"* interaktif.
 
-4. **Katalog & Ensiklopedia Tanaman Asli (Bebas Emotikon) 📸:**
+4. **Katalog & Ensiklopedia Tanaman Asli (Bebas Emotikon) :**
    * Menampilkan foto asli beresolusi tinggi untuk seluruh tanaman (*Kaktus Koboi, Lidah Buaya, Peace Lily, Mawar Mini, Tulip, Monstera, Sansevieria, Sirih Gading, Anggrek Bulan*).
    * Dilengkapi komparasi nilai sensor cahaya ruangan secara *real-time*.
 
@@ -39,13 +39,13 @@ Seluruh data profil dan tanaman tersimpan aman di database lokal SQLite (Room).
    * **Visualisasi Light Gauge Meter 2D (Canvas)**: Mengukur nilai Lux ruangan tempat pot berada secara *live*.
    * **Fitur Shake-to-Water (Sensor Gerak)**: Deteksi guncangan ponsel via *Accelerometer* untuk menyiram otomatis disertai getaran konfirmasi.
 
-6. **Halaman Profil Pengguna Profesional (Mode Baca & Edit Pensil) ✏️:**
+6. **Halaman Profil Pengguna Profesional (Mode Baca & Edit Pensil) :**
    * Data akun terkunci dalam mode baca (*View Mode*) secara default.
    * Menekan **ikon pensil** di kanan atas akan membuka mode edit (*Edit Mode*) untuk mengubah nama, username, email, dan foto profil dari galeri.
 
 ---
 
-## 📡 3. Sensor yang Digunakan & Cara Kerjanya
+## 3. Sensor yang Digunakan & Cara Kerjanya
 
 | No | Sensor | Kategori Sensor | Fungsi & Penerapan dalam Aplikasi |
 |:---:|:---|:---|:---|
@@ -54,7 +54,7 @@ Seluruh data profil dan tanaman tersimpan aman di database lokal SQLite (Room).
 
 ---
 
-## 🚀 4. Cara Menjalankan Aplikasi di Android Studio
+## 4. Cara Menjalankan Aplikasi di Android Studio
 
 1. **Buka Android Studio**.
 2. Pilih menu **File > Open**, lalu pilih folder:
